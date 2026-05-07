@@ -9,6 +9,7 @@ body{
     background:rgb(236 224 224);
     min-height: 100vh;
     width: 100%;
+    background-size: cover;
 }
 
 .section-center{
@@ -104,5 +105,50 @@ footer{
     font-size: 11px;  
     font-weight: 600;
     opacity: 0.3;
+}
 
+@media(max-width: 480px) {
+
+    .section-center, .welcome p button{
+        font-size: 14px;
+         height: 30px;
+    }
+    
+    .flex-container{
+        padding: 0;
+        margin: 50px 20px;
+    }
+
+    .title{
+        margin: 0px;
+        font-size: 12px;
+    }
+
+    .welcome{
+        width: 90%;
+    }
+
+    .welcome img{
+        width: 16px;
+        height: 16px;
+    }
+
+    footer{
+        margin-top: 50%;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 768px){
+    .title{
+        margin: 0px;
+    }
+
+    .welcome{
+        margin: 100px;
+    }
+
+    footer{
+        margin-top: 20%;
+    }
 }
