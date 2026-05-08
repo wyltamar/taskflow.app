@@ -35,7 +35,8 @@ body{
 .title{
     font-size: 14px;
     color: #555353;
-    margin-left: -500px;
+    align-self: baseline;
+    margin-left: 280px;
 }
 
 .title span{
