@@ -13,10 +13,10 @@
 }
 
 .flex-container{
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -80,24 +80,51 @@ h1 span{
     height: 50px;
     border: none;
     border-radius: 7px;
-    padding: 16px 24px;
+    padding: 15px 24px;
     font-size: 18px;
     flex-grow: 1;
-    
+}
 
+#input-add-task:focus{
+    outline: none;
 }
 
 .button-plus{
-    width: 32px;
+    width: auto;
     height: 32px;
     border: none;
     align-self: center;
     cursor: pointer; 
+    margin-right: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-plus:active{
+    opacity: 0.4;
+    transform: scale(0.95);
+}
+
+
+.text-center{
+    width: 47%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    line-height: 50px;
+    background: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 footer{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    font-size: 11px;  
+    font-weight: 600;
+    opacity: 0.3;
 }
 
