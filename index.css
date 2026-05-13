@@ -119,6 +119,33 @@ h1 span{
     border-radius: 5px;
 }
 
+.task{
+    width: 47%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #FFFFFF;
+    padding: 10px;
+
+}
+
+.task button{
+    display: flex;
+    margin-inline-start: auto;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.task #caneta{
+    display: flex;
+    margin-inline-start: 65%;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
