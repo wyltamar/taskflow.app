@@ -24,7 +24,6 @@
     margin: 0px 11px;
     padding: 64px 24px 32px;
     width: 50%;
-
     display: flex;
     justify-content: space-between;
     gap: 15px;
@@ -131,6 +130,7 @@ h1 span{
     overflow: hidden;
     background: #FFFFFF;
     padding: 10px;
+    margin-top: 5px;
 
 }
 
@@ -139,11 +139,18 @@ h1 span{
     margin-inline-start: auto;
     border: none;
     background-color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .task #caneta{
     display: flex;
     margin-inline-start: 65%;
+}
+
+.task button:active{
+    opacity: 0.4;
+    transform: scale(0.95);
 }
 
 footer{
